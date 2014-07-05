@@ -1,34 +1,30 @@
 LDAP vManager
 ================
 
-LDAP vManager is a Web Based Management tool created for LDAP and SAMBA domain controller PHP
+LDAP vManager is a Web Based Management tool created for LDAP and SAMBA domain controller with PHP
 
 What is it?
 ============
 
-The Postfix vManager provides an web based virtual mailbox administration system to allow Unix/Linux administrators to easily manage domains, parking domains, alias domain, mailboxes and forwardres. Postfix vManager is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 3.
+The LDAP vManager provides a web based LDAP and SAMBA administration system to allow Unix/Linux administrators to easily manage users and groups of LDAP and SAMBA.
 
-Postfix vManager was written in PHP, It requires PHP 4 and above, Postfix, Dovecot and MySQL 
+Postfix vManager was written in PHP, It requires PHP 4 and above, Aapache LDAP and SAMBA 4
 
 1. Features
 ===========
 
-Standard and enhanced features from Postfix vManager includes:
+Standard and enhanced features of LDAP vManager includes:
 
 * Super admin user level with full access.
-* Domain Admin user level with access only to assigned domains and their mailboxes and aliases.
-* Domain admins can create and modify SubDomain admins and mailboxes.
-* JQuery Datatable throughout for quick in browser searching and pagination.
-* Create, modify and delete domains including the mailboxes and aliases, a non-super admin can create per-domain; Activate / deactivate mailboxes and aliases at the click of a button.
-* Facility for users (mailbox owners) to change their password.
-* Parking Domain support.
-* Alias domain with virtual alias mailboes support.
-* Autoresponder (Vacation) support enabled.
+* Indivisual user access for changing information and password.
+* Multiple attributes options.
+* Two Factor Authentication with YubiKey.
+* Samba user management.
 
 2. Screenshots
 ==============
 
-Here is some screenshots of Postfix vManager.
+Here is some screenshots of LDAP vManager.
 
 1. Login Page
 --------------
